@@ -111,10 +111,7 @@ class MenuDrawer extends StatelessWidget {
                     // height: 30,
                     fit: BoxFit.fill,
                   ),
-                  //  Image.asset(
-                  //     'assets/side_walet.png',
-                  //     fit: BoxFit.cover,
-                  //   ),
+                
                   title: 'Wallet ',
                   fun: () {
                     Navigator.of(context).pop();

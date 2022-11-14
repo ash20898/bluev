@@ -68,32 +68,7 @@ class _HomeState extends State<Home> {
       'lat': 30.073807654195623,
       'lon': 31.322241637283838,
     },
-
-    // {
-    //   // third settlement
-    //   'lat': 29.982,
-    //   'lon': 31.412,
-    // },
-    // {
-    //   // arabella plaza
-    //   'lat': 29.995,
-    //   'lon': 31.43,
-    // },
-    // {
-    //   // eltagamo3 el5amis
-    //   'lat': 30.0066,
-    //   'lon': 31.42,
-    // },
-    // {
-    //   // german uni
-    //   'lat': 29.99,
-    //   'lon': 31.4387,
-    // },
-    // {
-    //   // el4owaifat
-    //   'lat': 30.005,
-    //   'lon': 31.4057,
-    // },
+    
   ];
 
   List<Map<String, String>> allstations = [
@@ -108,7 +83,7 @@ class _HomeState extends State<Home> {
       "time": (290 / 60).toStringAsFixed(1),
     },
     {
-      "place": "msakin mohandsen",
+      "place": "msakin  mohandsen",
       "distance": "3.2",
       "time": (360 / 60).toStringAsFixed(1),
     },
@@ -118,7 +93,7 @@ class _HomeState extends State<Home> {
       "time": "6.1",
     },
     {
-      "place": "stad elkahira",
+      "place": "elkahira stadium ",
       "distance": "3.58",
       "time": (384 / 60).toStringAsFixed(1),
     },
@@ -166,11 +141,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: ()=> _mapController.moveAndRotate(center, zoom, degree) ,
-      // backgroundColor: Theme.of(context).primaryColor,
-      // foregroundColor: Colors.black,
-      // ),
+      
       drawer: MenuDrawer(),
       //key: _scaffoldKey,
       body: Builder(builder: (context) {
