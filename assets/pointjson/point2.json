@@ -1,0 +1,561 @@
+{
+	"code": "Ok",
+	"routes": [{
+		"geometry": {
+			"coordinates": [
+				[31.41982, 29.990093],
+				[31.420268, 29.990891],
+				[31.420355, 29.99086],
+				[31.420447, 29.991066],
+				[31.421761, 29.990753],
+				[31.423365, 29.990727],
+				[31.423468, 29.99084],
+				[31.42339, 29.990946],
+				[31.423092, 29.991002],
+				[31.421979, 29.990986],
+				[31.421193, 29.991074],
+				[31.419814, 29.991567],
+				[31.418333, 29.992207],
+				[31.417637, 29.992643],
+				[31.417703, 29.993157],
+				[31.419662, 29.996206],
+				[31.419906, 29.996409],
+				[31.422228, 29.995278],
+				[31.422833, 29.995174],
+				[31.42345, 29.995227],
+				[31.424705, 29.995775],
+				[31.425641, 29.996318],
+				[31.426681, 29.997757],
+				[31.430064, 29.996078],
+				[31.430746, 29.995081],
+				[31.430147, 29.994781]
+			],
+			"type": "LineString"
+		},
+		"legs": [{
+			"steps": [{
+				"intersections": [{
+					"out": 0,
+					"entry": [true],
+					"bearings": [31],
+					"location": [31.41982, 29.990093]
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.41982, 29.990093],
+						[31.420098, 29.990495],
+						[31.420154, 29.990585],
+						[31.420217, 29.990729],
+						[31.420268, 29.990891]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 26.6,
+				"maneuver": {
+					"bearing_after": 31,
+					"type": "depart",
+					"modifier": "right",
+					"bearing_before": 0,
+					"location": [31.41982, 29.990093]
+				},
+				"weight": 26.6,
+				"distance": 99.3,
+				"name": ""
+			}, {
+				"intersections": [{
+					"out": 0,
+					"location": [31.420268, 29.990891],
+					"bearings": [105, 195, 300],
+					"entry": [true, false, false],
+					"in": 1
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.420268, 29.990891],
+						[31.420355, 29.99086]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 6.8,
+				"maneuver": {
+					"bearing_after": 111,
+					"type": "turn",
+					"modifier": "right",
+					"bearing_before": 15,
+					"location": [31.420268, 29.990891]
+				},
+				"weight": 6.8,
+				"distance": 9.1,
+				"name": "محور جمال عبد الناصر الجانبى"
+			}, {
+				"intersections": [{
+					"out": 0,
+					"location": [31.420355, 29.99086],
+					"bearings": [15, 105, 285],
+					"entry": [true, true, false],
+					"in": 2
+				}, {
+					"out": 0,
+					"location": [31.420447, 29.991066],
+					"bearings": [105, 195, 300],
+					"entry": [true, false, false],
+					"in": 1
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.420355, 29.99086],
+						[31.420447, 29.991066],
+						[31.420689, 29.990995],
+						[31.420762, 29.990977],
+						[31.421014, 29.990903],
+						[31.421143, 29.990867],
+						[31.421307, 29.990824],
+						[31.42139, 29.990801],
+						[31.421689, 29.990761],
+						[31.421761, 29.990753],
+						[31.422135, 29.990725],
+						[31.42251, 29.990719],
+						[31.423365, 29.990727]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 24.5,
+				"maneuver": {
+					"bearing_after": 21,
+					"type": "turn",
+					"modifier": "left",
+					"bearing_before": 111,
+					"location": [31.420355, 29.99086]
+				},
+				"weight": 24.5,
+				"distance": 310.9,
+				"name": "محور جمال عبد الناصر"
+			}, {
+				"intersections": [{
+					"out": 0,
+					"location": [31.423365, 29.990727],
+					"bearings": [45, 90, 270],
+					"entry": [true, true, false],
+					"in": 2
+				}, {
+					"out": 2,
+					"location": [31.423092, 29.991002],
+					"bearings": [90, 105, 270],
+					"entry": [false, false, true],
+					"in": 1
+				}, {
+					"out": 2,
+					"location": [31.420215, 29.991416],
+					"bearings": [105, 195, 300],
+					"entry": [false, false, true],
+					"in": 0
+				}, {
+					"out": 2,
+					"location": [31.418708, 29.992043],
+					"bearings": [45, 120, 300],
+					"entry": [false, false, true],
+					"in": 1
+				}, {
+					"out": 2,
+					"location": [31.418529, 29.992122],
+					"bearings": [45, 120, 300],
+					"entry": [false, false, true],
+					"in": 1
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.423365, 29.990727],
+						[31.42344, 29.990778],
+						[31.423468, 29.99084],
+						[31.423449, 29.990904],
+						[31.42339, 29.990946],
+						[31.423092, 29.991002],
+						[31.422686, 29.990996],
+						[31.421979, 29.990986],
+						[31.421708, 29.991003],
+						[31.421657, 29.991006],
+						[31.421303, 29.991044],
+						[31.421193, 29.991074],
+						[31.421108, 29.9911],
+						[31.42089, 29.991169],
+						[31.420773, 29.991209],
+						[31.420658, 29.991248],
+						[31.420479, 29.991325],
+						[31.420396, 29.991354],
+						[31.420215, 29.991416],
+						[31.419814, 29.991567],
+						[31.419199, 29.991826],
+						[31.419063, 29.991886],
+						[31.418708, 29.992043],
+						[31.418529, 29.992122],
+						[31.418333, 29.992207],
+						[31.418173, 29.992289],
+						[31.418062, 29.992352],
+						[31.418019, 29.992376],
+						[31.417916, 29.992442],
+						[31.417825, 29.992509],
+						[31.417749, 29.992561],
+						[31.417725, 29.992577],
+						[31.417637, 29.992643]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 46.4,
+				"maneuver": {
+					"bearing_after": 50,
+					"type": "continue",
+					"modifier": "uturn",
+					"bearing_before": 88,
+					"location": [31.423365, 29.990727]
+				},
+				"weight": 46.4,
+				"distance": 630.7,
+				"name": "محور جمال عبد الناصر"
+			}, {
+				"intersections": [{
+					"out": 0,
+					"location": [31.417637, 29.992643],
+					"bearings": [0, 135, 300],
+					"entry": [true, false, true],
+					"in": 1
+				}, {
+					"out": 0,
+					"location": [31.41764, 29.993009],
+					"bearings": [15, 180, 300],
+					"entry": [true, false, false],
+					"in": 1
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.417637, 29.992643],
+						[31.417625, 29.992741],
+						[31.417618, 29.99281],
+						[31.417617, 29.992895],
+						[31.41764, 29.993009],
+						[31.417664, 29.993072],
+						[31.417703, 29.993157],
+						[31.417809, 29.993329],
+						[31.417885, 29.993447],
+						[31.417976, 29.993596],
+						[31.418034, 29.993684],
+						[31.418267, 29.994044],
+						[31.41846, 29.994323],
+						[31.418578, 29.994512],
+						[31.418679, 29.994673],
+						[31.418892, 29.995008],
+						[31.419114, 29.995362],
+						[31.419211, 29.995511],
+						[31.419343, 29.995716],
+						[31.419519, 29.995989],
+						[31.419578, 29.99608],
+						[31.419587, 29.996093],
+						[31.419619, 29.996142],
+						[31.419662, 29.996206],
+						[31.419705, 29.996258],
+						[31.419767, 29.996316],
+						[31.419863, 29.996381]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 42.8,
+				"maneuver": {
+					"bearing_after": 352,
+					"type": "turn",
+					"modifier": "right",
+					"bearing_before": 307,
+					"location": [31.417637, 29.992643]
+				},
+				"weight": 42.8,
+				"distance": 474.3,
+				"name": "محور محمد فريد"
+			}, {
+				"intersections": [{
+					"out": 0,
+					"location": [31.419863, 29.996381],
+					"bearings": [60, 225, 255],
+					"entry": [true, false, false],
+					"in": 1
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.419863, 29.996381],
+						[31.419886, 29.996394],
+						[31.419906, 29.996409]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"rotary_name": "ميدان رامى هلال",
+				"duration": 1.1,
+				"maneuver": {
+					"exit": 1,
+					"bearing_after": 57,
+					"type": "rotary",
+					"modifier": "straight",
+					"bearing_before": 52,
+					"location": [31.419863, 29.996381]
+				},
+				"weight": 1.1,
+				"distance": 5.2,
+				"name": "شارع ابن تيميه"
+			}, {
+				"intersections": [{
+					"out": 1,
+					"location": [31.419906, 29.996409],
+					"bearings": [30, 120, 225],
+					"entry": [true, true, false],
+					"in": 2
+				}, {
+					"out": 0,
+					"location": [31.42087, 29.995919],
+					"bearings": [120, 210, 300],
+					"entry": [true, true, false],
+					"in": 2
+				}, {
+					"out": 0,
+					"location": [31.422833, 29.995174],
+					"bearings": [90, 180, 270, 345],
+					"entry": [true, true, false, false],
+					"in": 2
+				}, {
+					"out": 1,
+					"location": [31.423104, 29.995177],
+					"bearings": [30, 75, 210, 270],
+					"entry": [true, true, false, false],
+					"in": 3
+				}, {
+					"out": 0,
+					"location": [31.42449, 29.995675],
+					"bearings": [60, 150, 240, 330],
+					"entry": [true, true, false, true],
+					"in": 2
+				}, {
+					"out": 0,
+					"location": [31.425526, 29.996238],
+					"bearings": [45, 240, 315],
+					"entry": [true, false, true],
+					"in": 1
+				}, {
+					"out": 0,
+					"location": [31.425641, 29.996318],
+					"bearings": [45, 150, 225],
+					"entry": [true, true, false],
+					"in": 2
+				}, {
+					"out": 0,
+					"location": [31.425709, 29.996387],
+					"bearings": [30, 225, 300],
+					"entry": [true, false, false],
+					"in": 1
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.419906, 29.996409],
+						[31.42087, 29.995919],
+						[31.421251, 29.995739],
+						[31.421389, 29.995668],
+						[31.421792, 29.995469],
+						[31.422068, 29.995338],
+						[31.422228, 29.995278],
+						[31.422401, 29.995222],
+						[31.422615, 29.995196],
+						[31.422833, 29.995174],
+						[31.423104, 29.995177],
+						[31.423215, 29.995186],
+						[31.423303, 29.995198],
+						[31.42345, 29.995227],
+						[31.423595, 29.995265],
+						[31.423761, 29.995325],
+						[31.423948, 29.995408],
+						[31.42449, 29.995675],
+						[31.424705, 29.995775],
+						[31.425026, 29.995935],
+						[31.425312, 29.996102],
+						[31.425416, 29.996164],
+						[31.425526, 29.996238],
+						[31.425641, 29.996318],
+						[31.425709, 29.996387],
+						[31.425885, 29.99662],
+						[31.425901, 29.996643],
+						[31.426021, 29.996816],
+						[31.426343, 29.997268],
+						[31.426506, 29.9975],
+						[31.426681, 29.997757]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 74.8,
+				"maneuver": {
+					"exit": 1,
+					"bearing_after": 119,
+					"type": "exit rotary",
+					"modifier": "right",
+					"bearing_before": 47,
+					"location": [31.419906, 29.996409]
+				},
+				"weight": 74.8,
+				"distance": 809.8,
+				"name": "شارع ابن تيميه"
+			}, {
+				"intersections": [{
+					"out": 1,
+					"location": [31.426681, 29.997757],
+					"bearings": [30, 120, 210, 300],
+					"entry": [true, true, false, true],
+					"in": 2
+				}, {
+					"out": 0,
+					"location": [31.427681, 29.997259],
+					"bearings": [120, 210, 300],
+					"entry": [true, true, false],
+					"in": 2
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.426681, 29.997757],
+						[31.426983, 29.99761],
+						[31.427681, 29.997259],
+						[31.428187, 29.997007],
+						[31.428458, 29.996869],
+						[31.428521, 29.996837],
+						[31.428872, 29.996661],
+						[31.42894, 29.996627],
+						[31.43001, 29.996092],
+						[31.430064, 29.996078]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 33.8,
+				"maneuver": {
+					"bearing_after": 118,
+					"type": "turn",
+					"modifier": "right",
+					"bearing_before": 29,
+					"location": [31.426681, 29.997757]
+				},
+				"weight": 33.8,
+				"distance": 375.7,
+				"name": "شارع 8"
+			}, {
+				"intersections": [{
+					"out": 1,
+					"location": [31.430064, 29.996078],
+					"bearings": [75, 150, 300],
+					"entry": [true, true, false],
+					"in": 2
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.430064, 29.996078],
+						[31.430597, 29.9953],
+						[31.430746, 29.995081]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 13.7,
+				"maneuver": {
+					"bearing_after": 149,
+					"type": "turn",
+					"modifier": "slight right",
+					"bearing_before": 118,
+					"location": [31.430064, 29.996078]
+				},
+				"weight": 13.7,
+				"distance": 128.9,
+				"name": "شارع الشهيد المستشار محمد مروان"
+			}, {
+				"intersections": [{
+					"out": 1,
+					"location": [31.430746, 29.995081],
+					"bearings": [150, 240, 330],
+					"entry": [true, true, false],
+					"in": 2
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.430746, 29.995081],
+						[31.43046, 29.994938],
+						[31.430147, 29.994781]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 9.6,
+				"maneuver": {
+					"bearing_after": 239,
+					"type": "turn",
+					"modifier": "right",
+					"bearing_before": 149,
+					"location": [31.430746, 29.995081]
+				},
+				"weight": 9.6,
+				"distance": 66.7,
+				"name": "شارع 12"
+			}, {
+				"intersections": [{
+					"in": 0,
+					"entry": [true],
+					"bearings": [60],
+					"location": [31.430147, 29.994781]
+				}],
+				"driving_side": "right",
+				"geometry": {
+					"coordinates": [
+						[31.430147, 29.994781],
+						[31.430147, 29.994781]
+					],
+					"type": "LineString"
+				},
+				"mode": "driving",
+				"duration": 0,
+				"maneuver": {
+					"bearing_after": 0,
+					"type": "arrive",
+					"modifier": "right",
+					"bearing_before": 240,
+					"location": [31.430147, 29.994781]
+				},
+				"weight": 0,
+				"distance": 0,
+				"name": "شارع 12"
+			}],
+			"distance": 2910.5,
+			"duration": 280.1,
+			"summary": "محور جمال عبد الناصر, شارع ابن تيميه",
+			"weight": 280.1
+		}],
+		"distance": 2910.5,
+		"duration": 280.1,
+		"weight_name": "routability",
+		"weight": 280.1
+	}],
+	"waypoints": [{
+		"hint": "gw0rgOgNK4B9AAAAewAAAHEAAABaAQAAPQ9QQnPTS0IZMDxCUX4QQ30AAAB7AAAAcQAAAFoBAABKAQAArG3fAc2cyQFgbt8BcJzJAQMALw3ZudZw",
+		"distance": 20.200674,
+		"name": "",
+		"location": [31.41982, 29.990093]
+	}, {
+		"hint": "-h4rgFQfK4AyAAAANgAAAC4AAAAAAAAAhXMLQiI-FEJOpP5BAAAAADIAAAA2AAAALgAAAAAAAABKAQAAA5bfAR2vyQFwld8B-K_JAQEA_w7ZudZw",
+		"distance": 28.117446,
+		"name": "شارع 12",
+		"location": [31.430147, 29.994781]
+	}]
+}
